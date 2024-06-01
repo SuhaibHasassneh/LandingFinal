@@ -492,6 +492,7 @@ nav ul li a{
     .avaliable-courses .row{
         flex-direction: column;
     }
+    
     .avaliable-courses .left-side{
         width: 100%;
         flex-direction: column;
@@ -503,12 +504,13 @@ nav ul li a{
         width: 100%;
     }
  }
+
  @media (min-width:768px) and (max-width:1000px){
     .avaliable-courses .left-side .course-item .price p:first-of-type{
         font-size: 10px;
     }
  }
- @media (min-width:426px) and (max-width:1024px){
+ @media (min-width:426px) and (max-width:1450px){
     .avaliable-courses .row{
         flex-direction: column;
     }
